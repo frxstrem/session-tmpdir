@@ -1,0 +1,12 @@
+[package]
+name = "session-tmpdir"
+version = "0.1.0"
+authors = ["Fredrik Østrem <frx.apps@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+clap = "2.32"
+nix = "0.12"
+libc = "0.2.46"
+caps = "0.3.0"
